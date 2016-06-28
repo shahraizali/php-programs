@@ -1,0 +1,20 @@
+#box{
+    text-align: center;
+    background-color: aqua;
+    padding:50px,50px,50px,50px;   
+    
+    
+    opacity:0.9;
+ 
+}
+
+body{
+    background: grey;
+}    
+
+#header{
+ text-align: center;   
+}
+#name{
+    
+}

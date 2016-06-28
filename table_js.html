@@ -1,0 +1,32 @@
+
+//table with javascript
+
+
+
+<!doctype html>
+<html>
+    <head>
+    <script>
+        function table(){
+            
+            var num =  document.getElementById('tablebox').value;
+            if(num != ""){
+            counter =10;
+           for(var i=0; i<= 10 ; i++){2
+                document.write(num+" X "+i +" = "+i*num+"</br>");
+                counter --;
+            }
+            }else{
+                document.write("empty box");
+            }
+        }
+    </script>
+        
+    </head>
+    <body>
+      
+        <input type ="text" id="tablebox" name ="box" placeholder="Enter number ">
+        <input type ="button"  value="print table" onclick="table()">
+        
+    </body>
+</html>
